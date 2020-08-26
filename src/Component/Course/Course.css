@@ -1,0 +1,9 @@
+.Course{
+    display:flex;
+}
+.course-area{
+    width: 70%;
+    padding-left: 20px;
+    margin-left: 20px;
+    border-right: 1px solid gray;
+}

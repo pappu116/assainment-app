@@ -1,0 +1,43 @@
+.item{
+    display:flex;
+    border: 1px solid gray;
+   
+    margin-bottom: 5px;
+    margin: 10px;
+    padding-bottom: 10px;
+    height: 300px;
+    background-color:#25B0F3;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 5px;
+}
+.item img{
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+    
+}
+.title-name{
+    margin-left: 10px;
+    padding: 5px;
+}
+.title-name h4{
+    color: darkblue
+}
+.title-name h5{
+    color: #fff;
+}
+
+.enrl-btn{
+    width:150px;
+    height: 35px;
+    font-size:20px;
+    background-color: #564943;
+    color: #D8C5AD;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enrl-btn:hover{
+    box-shadow: 5px 5px 20px 0px #F3A0A7, 0px 0px 20px 0px blue;
+}
