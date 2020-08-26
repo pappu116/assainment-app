@@ -4,14 +4,13 @@
    
     margin-bottom: 5px;
     margin: 10px;
-    padding-bottom: 10px;
     height: 300px;
     background-color:#25B0F3;
     box-shadow: 5px 5px 10px gray;
     border-radius: 5px;
 }
 .item img{
-    height: 300px;
+    height: 100%;
     width: 250px;
     border-radius: 5px;
     
