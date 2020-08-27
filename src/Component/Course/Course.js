@@ -4,6 +4,7 @@ import fakeData from '../../fakeData'
 import { useState } from 'react';
 import Item from '../Item/Item';
 import Enroll from '../Enroll/Enroll';
+// import CartItem from '../Cart/CartItem';
 const Course = () => {
    const frst10Curs =fakeData.slice(0, 10);
    
@@ -23,13 +24,17 @@ const Course = () => {
                     cours.map(crs=> 
                     <Item cours={crs}
                     handelEnrollCours={handelEnrollCours}
+                    key={crs.id}
                     >
 
                     </Item>)
                 }
             </div>
-            <div>
-          <Enroll enroll={enroll}></Enroll>
+            <div  >
+           
+           <Enroll enroll={enroll}></Enroll>
+           <br/>
+          
             </div>
         </div>
     );

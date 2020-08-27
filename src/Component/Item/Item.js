@@ -2,7 +2,6 @@ import React from 'react';
 import './Item.css'
 
 const Item = (props) => {
-    // console.log(props)
    const{title,discription,price,image,mentor}=props.cours;
    const handelEnrollCours=props.handelEnrollCours;
     return (
