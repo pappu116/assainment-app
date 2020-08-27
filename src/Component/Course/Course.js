@@ -6,7 +6,7 @@ import Item from '../Item/Item';
 import Enroll from '../Enroll/Enroll';
 // import CartItem from '../Cart/CartItem';
 const Course = () => {
-   const frst10Curs =fakeData.slice(0, 10);
+   const frst10Curs =fakeData.slice(0, 15);
    
 //    console.log(frst10Curs)
   const  [cours, setCours]=useState(frst10Curs);
